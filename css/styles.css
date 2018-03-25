@@ -16,33 +16,102 @@
 .lunch img{
   background-size: cover;
 }
-#bf{
-  border: 1px solid blue;
-  padding: 0%;
-  margin: 0%;
-}
-.bf{
-  width: 100%;
-}
-.centered{
-  position: absolute;
-  top: 50%;
-  left: 40%;
-  transform: translate(-50%, -50%);
-}
-.dinner{
-  color: white;
-}
-.lunch{
-  color: white;
-}
-.breakfast{
-  color: white;
-}
 .menu{
   background-image: url("../images/backgrounds/foodsBg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
+}
+#well{
+  background-image: url("../images/backgrounds/subscribe.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+
+}
+.image-responsive{
+  margin: 0%;
+  width: 100%;
+  height: 100%;
+}
+.customer{
+  padding-left: 15%;
+}
+#footer{
+  background-color: #F15A29;
+  width: 100%;
+  height: 400px;
+}
+.ftimgg{
+  /* padding-right: 25%; */
+  padding-left: 45%;
+
+}
+.ftimg{
+  padding-left: 15%;
+  padding-right: 25%;
+}
+.content h2{
+  color: #F15A29;
+}
+.content p{
+  font-size: 15px;
+}
+.abt{
+  font-size: 15px;
+}
+.menutxt{
+  text-align: center;
+  color: #F15A29;
+}
+.sub{
+  text-align: center;
+  color: white;
+}
+.row-happyhour p{
+  background-color: grey;
+}
+.flex{
+  margin: 0%;
+  padding: 0%;
+  /* flex-direction: row; */
+  align-items: stretch;
+  height: 200px;
+}
+.images{
+  margin: 0%;
+  padding: 0%;
+  border: 0%;
+  align-items: stretch;
+}
+.container{
+  padding: 0%;
+  margin: 0%;
+}
+.toptext{
+    left: 0;
+    position:absolute;
+    text-align:center;
+    top: 40%;
+    width: 100%;
+    color: white;
+    font-family: 'Artifika', serif;
+    font-size: 30px;
+}
+.happy{
+  background-color: #e9eaec;
+  height: 56px;
+  margin: 0%;
+  padding: 0%;
+
+}
+.Party{
+  background-color: #F15A29;
+  height: 120px;
+}
+.Party h2{
+  padding: 30px;
+  color: #e9eaec;
 }

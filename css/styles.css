@@ -36,9 +36,6 @@
   width: 100%;
   height: 100%;
 }
-.customer{
-  padding-left: 15%;
-}
 #footer{
   background-color: #F15A29;
   width: 100%;
@@ -58,6 +55,7 @@
 }
 .content p{
   font-size: 15px;
+  align-items: center;
 }
 .abt{
   font-size: 15px;
@@ -114,4 +112,25 @@
 .Party h2{
   padding: 30px;
   color: #e9eaec;
+}
+span {
+  content: "\003E";
+  color: #F15A29;
+}
+.customer{
+  display: inline-block;
+  margin: 0%;
+  padding-left: 9%;
+}
+.body{
+  margin: 0%;
+  padding: 0%;
+}
+.container-fluid{
+  padding: 0%;
+  margin: 0%;
+}
+#image{
+  padding: 0% 0% 0% 15%;
+  box-shadow: 5px 5px 5px grey;
 }

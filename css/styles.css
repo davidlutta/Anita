@@ -1,4 +1,35 @@
-.jumbotron{
+.overlay{
+  width: 0%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  background-color: #F15A29;
+  position: fixed;
+  transition: 0.5s;
+  overflow-x: hidden;
+}
+.overlay-content{
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  left: 0%;
+  position: relative;
+}
+.overlay a{
+  width: 100%;
+  font-size: 40px;
+  transition: 0.3s;
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding: 8px;
+}
+.closebtn{
+  margin-left: 80%;
+}
+.overlay a:hover{
+  color: white;
+}.jumbotron{
   background-image: url("/Users/davidlutta/Documents/moringa-school-projects/Anita's-Kitchen-project/images/backgrounds/landing.jpg");
   background-size: cover;
   background-position: center;
@@ -85,7 +116,7 @@
     text-align:center;
     top: 40%;
     width: 100%;
-    color: white;
+    color: black;
     font-family: 'Artifika', serif;
     font-size: 30px;
 }
@@ -151,35 +182,10 @@ span {
 .ftimgg{
   padding-left: 25%;
 }
-.overlay{
-  width: 0%;
-  height: 100%;
-  top: 0%;
-  left: 0%;
-  background-color: #F15A29;
-  position: fixed;
-  transition: 0.5s;
-  overflow-x: hidden;
-}
-.overlay-content{
-  top: 30%;
-  width: 100%;
-  text-align: center;
-  left: 0%;
-  position: relative;
-}
-.overlay a{
-  width: 100%;
-  font-size: 40px;
-  transition: 0.3s;
-  color: #e9eaec;
-  text-decoration: none;
-  display: block;
-  padding: 8px;
-}
-.closebtn{
-  margin-left: 80%;
-}
-.overlay a:hover{
+.images:hover{
+  opacity: 0.3;
   color: white;
 }
+/* .images p:hover{
+  color: white;
+} */

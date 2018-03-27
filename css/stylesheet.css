@@ -34,7 +34,7 @@
   color: white;
 }
 .jumbotron{
-  background-image: url("/Users/davidlutta/Documents/moringa-school-projects/Anita's-Kitchen-project/images/backgrounds/landing.jpg");
+  background-image: url("../images/backgrounds/landing.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;

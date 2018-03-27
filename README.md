@@ -14,4 +14,4 @@ HTML, CSS and JavaScript languages were used.
 contact me through my Github.
 ### License
 *MIT*
-Copyright (c) {year} **Menu Restaurant**
+Copyright (c) 2018 **Menu Restaurant**

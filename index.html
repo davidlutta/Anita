@@ -2,82 +2,49 @@
 <html>
 
 <head>
-
   <meta charset="utf-8">
-
-  <link rel="stylesheet" href="css/bootstrap.css">
-
-  <link rel="stylesheet" href="css/styles.css">
-
+  <title>Menu Restaurant</title>
+  <link rel="stylesheet" href="css/css/bootstrap.css">
+  <link rel="stylesheet" href="css/stylesheet.css">
   <script src="js/jquery-3.3.1.min.js" charset="utf-8"></script>
-
   <script src="js/scripts.js" charset="utf-8"></script>
-
 </head>
 
 <body>
-
-  <div class="overlay" id="mynav">
-    <a href="#" onclick="closeNav()" class="closebtn">&times;</a>
-    <div class="overlay-content">
-      <a href="#">Contacts</a>
-      <a href="#">Events</a>
-      <a href="#">Menu</a>
-    </div>
-
-  </div>
-  <span style="font-size: 40px;cursor: pointer;" onclick="openNav()"> &#9776 </span>
-
   <div class="jumbotron">
-    <img src="images/logo/logoBig.png" alt="">
+    <div class="overlay" id="mynav">
+      <a href="#" onclick="closeNav()" class="closebtn">&times;</a>
+      <div class="overlay-content">
+        <a href="#">Contacts</a>
+        <a href="#">Events</a>
+        <a href="#">Menu</a>
+      </div>
+    </div>
+    <!-- <span style="font-size: 40px;cursor: pointer;" onclick="openNav()">&#9776</span> -->
+    <img src="images/logo/logoBig.png" alt="Landing page">
     <p class="text-center">We Provide The Best Food At The <strong>Right Price</strong></p>
   </div>
-
   <div class="container-fluid">
-    <div class="row">
-      <div class="flex">
-      <div class="col-md-3 info">
-
-          <div class="happy">
-            <h2 class="text-center">Happy Hour</h2>
-          </div>
-
-
-          <div class="Party">
-            <h2 class="text-center">Party Time</h2>
-
-          </div>
-
-
-
+    <div class="section-menu">
+      <div class="row">
+        <div class="col-md-3">
+          <p id="happyhour">Happy hour</p>
+          <p id="partytime">Party time</p>
+        </div>
+        <div class="col-md-3">
+          <p id="breakfast">Breakfast</p>
+        </div>
+        <div class="col-md-3">
+          <p id="lunch">Lunch</p>
+        </div>
+        <div class="col-md-3">
+          <p id="dinner"> Dinner</p>
+        </div>
       </div>
-
-      <div class="col-md-3 images">
-
-        <img src="/Users/davidlutta/Documents/moringa-school-projects/Anita's-Kitchen-project/images/foodtop/breakfast.jpg" class="image-responsive" alt="Breakfast">
-        <p class="toptext">Breakfast</p>
-      </div>
-
-      <div class="col-md-3 images">
-
-        <img src="/Users/davidlutta/Documents/moringa-school-projects/Anita's-Kitchen-project/images/foodtop/lunch.jpg" class="image-responsive" alt="lunch">
-        <p class="toptext">Lunch</p>
-      </div>
-
-      <div class="col-md-3 images">
-
-        <img src="/Users/davidlutta/Documents/moringa-school-projects/Anita's-Kitchen-project/images/foodtop/dinner.jpg" class="image-responsive" alt="Dinner">
-        <p class="toptext">Dinner</p>
-      </div>
-
     </div>
-    </div>
-    <br>
-    <br>
-
     <div class="row">
       <div class="col-md-6">
-        <div id="image">
+        <div class="well">
           <img src="/Users/davidlutta/Documents/moringa-school-projects/Anita's-Kitchen-project/images/fastfood/fastFood combined.jpg" alt="Cakes combined">
         </div>
       </div>
@@ -89,10 +56,8 @@
           <p>Fugiat in ullamco laborum qui magna in ipsum veniam ullamco ea quis. Ex pariatur qui sint veniam tempor non proident aute eiusmod eu minim Lorem anim in enim. Culpa sunt sunt id eu eu commodo eiusmod ad. Occaecat dolor ut magna Lorem incididunt
             cupidatat do.Vivamus consequat lacinia bibendum. Aliquam facilisis mattis urna, eu pulvinar dolor convallis eget. Proin eu turpis sed turpis tempor interdum. Donec sollicitudin sollicitudin diam, hendrerit vehicula nisl consectetur et. Nulla
             sollicitudin mollis nibh ullamcorper dignissim. Pellentesque nec est vel dui feugiat blandit. Sed maximus vitae erat in semper. Nulla non mi neque.</p>
-          <button type="btn" class="btn btn-default">View Gallery</button>
+          <button type="btn" class="btn btn-default">View Gallery   <span class="glyphicon glyphicon-arrow-right"></span></button>
         </div>
-
-
 
       </div>
 
@@ -107,77 +72,194 @@
           <p class="text-right">Fugiat in ullamco laborum qui magna in ipsum veniam ullamco ea quis. Ex pariatur qui sint veniam tempor non proident aute eiusmod eu minim Lorem anim in enim. Culpa sunt sunt id eu eu commodo eiusmod ad. Occaecat dolor ut magna Lorem incididunt
             cupidatat do.Vivamus consequat lacinia bibendum. Aliquam facilisis mattis urna, eu pulvinar dolor convallis eget. Proin eu turpis sed turpis tempor interdum. Donec sollicitudin sollicitudin diam, hendrerit vehicula nisl consectetur et. Nulla
             sollicitudin mollis nibh ullamcorper dignissim. Pellentesque nec est vel dui feugiat blandit. Sed maximus vitae erat in semper. Nulla non mi neque.</p>
-          <button type="btn" class="btn btn-default">View Gallery</button>
+          <button type="btn" class="btn btn-default">View Gallery <span class="glyphicon glyphicon-arrow-right"></span></button>
         </div>
 
       </div>
 
       <div class="col-md-6">
-        <div id="image">
-        <img src="/Users/davidlutta/Documents/moringa-school-projects/Anita's-Kitchen-project/images/drinks/drinks combined.jpg" alt="Drinks">
-      </div>
+        <div class="well">
+          <img src="/Users/davidlutta/Documents/moringa-school-projects/Anita's-Kitchen-project/images/drinks/drinks combined.jpg" alt="Drinks">
+        </div>
       </div>
 
     </div>
-  </div>
-
-  <br>
-
-  <div class="menu">
-
-
-  </div>
-  <div class="container">
-    <div class="row">
-
-      <div class="col-md-6">
-        <div class="content">
-          <h2 class="text-center">Our Happy Customers</h2>
-          <h3 class="text-center">George Richard</h3>
-          <p class="text-center">Great food ! Menu is awesome, their foods are not only great but also in the right price. I'll highly recommend them :)</p>
-          <span class="customer">&#60;</span> <img src="/Users/davidlutta/Documents/moringa-school-projects/Anita's-Kitchen-project/images/customers/p1.png" class="customer" alt="customer 1">
-          <img src="/Users/davidlutta/Documents/moringa-school-projects/Anita's-Kitchen-project/images/customers/p2.png" class="customer" alt="customer 2">
-          <img src="/Users/davidlutta/Documents/moringa-school-projects/Anita's-Kitchen-project/images/customers/p3.png" class="customer" alt="customer 3"> <span class="customer">&#62;</span>
+    <br>
+    <br>
+    <div class="section-navigation">
+      <div class="nav-list">
+        <ul class="nav nav-tabs nav-justified">
+          <li class="active"><a data-toggle="tab" href="#Fast Food">Fast Food</a></li>
+          <li><a data-toggle="tab" href="#drinks">Drinks</a></li>
+          <li><a data-toggle="tab" href="#chicken">Chicken</a></li>
+          <li><a data-toggle="tab" href="#rice">Rice</a></li>
+        </ul>
+        <div class="tab-content">
+          <div id="fastfood" class="tab-pane fade in active">
+            <div id="fastFoodCarousel" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#fastFoodCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#fastFoodCarousel" data-slide-to="1" class="active"></li>
+                <li data-target="#fastFoodCarousel" data-slide-to="2" class="active"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="images/fastfood/chickenBurger.jpg" alt="Chicken Burger">
+                </div>
+                <div class="item active">
+                  <img src="images/fastfood/beefBurger.jpg" alt="Beef Burger">
+                </div>
+                <div class="item active">
+                  <img src="images/fastfood/chickenPizza.jpg" alt="Chicken Pizza">
+                </div>
+              </div>
+              <a class="left carousel-control" href="fastFoodCarousel" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                    <span class="sr-only">Previous</span>
+                            </a>
+              <a class="right carousel-control" href="fastFoodCarousel" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                    <span class="sr-only">Next</span>
+                            </a>
+            </div>
+          </div>
+          <div id="drinks" class="tab-pane fade">
+            <div id="drinksCarousel" class="carousel" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#drinksCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#drinksCarousel" data-slide-to="1" class="active"></li>
+                <li data-target="#drinksCarousel" data-slide-to="2" class="active"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="images/fastfood/chickenBurger.jpg" alt="Chicken Burger">
+                </div>
+                <div class="item active">
+                  <img src="images/fastfood/beefBurger.jpg" alt="Beef Burger">
+                </div>
+                <div class="item active">
+                  <img src="images/fastfood/chickenPizza.jpg" alt="Chicken Pizza">
+                </div>
+              </div>
+              <a class="left carousel-control" href="drinksCarousel" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                    <span class="sr-only">Previous</span>
+                            </a>
+              <a class="right carousel-control" href="drinksCarousel" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                    <span class="sr-only">Next</span>
+                            </a>
+            </div>
+          </div>
+          <div id="chicken" class="tab-pane fade">
+            <div id="chickenCarousel" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#chickenCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#chickenCarousel" data-slide-to="1" class="active"></li>
+                <li data-target="#chickenCarousel" data-slide-to="2" class="active"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="images/fastfood/chickenBurger.jpg" alt="Chicken Burger">
+                </div>
+                <div class="item active">
+                  <img src="images/fastfood/beefBurger.jpg" alt="Beef Burger">
+                </div>
+                <div class="item active">
+                  <img src="images/fastfood/chickenPizza.jpg" alt="Chicken Pizza">
+                </div>
+              </div>
+              <a class="left carousel-control" href="chickenCarousel" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                    <span class="sr-only">Previous</span>
+                            </a>
+              <a class="right carousel-control" href="chickenCarousel" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                    <span class="sr-only">Next</span>
+                            </a>
+            </div>
+          </div>
+          <div id="fastfood" class="tab-pane fade">
+            <div id="riceCarousel" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#riceCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#riceCarousel" data-slide-to="1" class="active"></li>
+                <li data-target="#riceCarousel" data-slide-to="2" class="active"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="images/fastfood/chickenBurger.jpg" alt="Chicken Burger">
+                </div>
+                <div class="item active">
+                  <img src="images/fastfood/beefBurger.jpg" alt="Beef Burger">
+                </div>
+                <div class="item active">
+                  <img src="images/fastfood/chickenPizza.jpg" alt="Chicken Pizza">
+                </div>
+              </div>
+              <a class="left carousel-control" href="riceCarousel" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                    <span class="sr-only">Previous</span>
+                            </a>
+              <a class="right carousel-control" href="riceCarousel" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                    <span class="sr-only">Next</span>
+                            </a>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="col-md-6 .col-md-offset-7">
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <h2 class="testimonial">Our Happy Customers</h2>
+        <h3 class="text-center">George Richard</h3>
+        <span class="customer" style="color : #F15A29;">&#60;</span> <img src="/Users/davidlutta/Documents/moringa-school-projects/Anita's-Kitchen-project/images/customers/p1.png" class="customer" alt="customer 1">
+        <img src="/Users/davidlutta/Documents/moringa-school-projects/Anita's-Kitchen-project/images/customers/p2.png" class="customer" alt="customer 2">
+        <img src="/Users/davidlutta/Documents/moringa-school-projects/Anita's-Kitchen-project/images/customers/p3.png" class="customer" alt="customer 3"> <span class="customer" style="color : #F15A29;">&#62;</span>
+      </div>
+      <div class="col-md-6">
         <h2 class="menutxt">About Menu</h2>
         <p class="abt">We are Menu a little team of 7 members.Aliquam facilisis mattis urna, eu pulvinar dolor convallis eget. Proin eu turpis sed turpis tempor interdum. Donec sollicitudin sollicitudin diam, hendrerit vehicula nisl consectetur et. Nulla sollicitudin
           mollis nibh ullamcorper dignissim. Pellentesque nec est vel dui feugiat blandit. Sed maximus vitae erat in semper. Nulla non mi neque.</p>
-        </div>
-
+      </div>
     </div>
-  </div>
 
-    <div id="well">
+  </div>
+  <div class="subscribe">
     <h2 class="sub">Get our daily food items delivered to your email</h2>
     <form class="form-inline">
-      <form class="form-inline">
-        <div class="form-group col-md-6 col-md-offset-5">
-          <label class="sr-only" for="exampleInputEmail3">Your email</label>
-          <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
-          <button type="submit" class="btn btn-default">Subscribe</button>
-
-        </div>
-      </form>
+      <div class="form-group">
+        <label class="sr-only" for="exampleInputEmail3">Your Email</label>
+        <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email" style="
+    width: 500px;
+    opacity: 0.3;
+    ">
       </div>
-      <div id="footer">
+      <button type="submit" class="btn btn-default" style=" width: 200px;
+    background-color: #F15A29;
+    color: white;
+    ">
+    Subscribe</button>
+    </form>
 
-          <img src="/Users/davidlutta/Documents/moringa-school-projects/Anita's-Kitchen-project/images/footerlogos/logo_white.png" alt="Burger Logo" class="ftimgg"> <p class="footertxt">MENU</p>
-          <h3 class="fttxt"><strong>That's What We Are</strong></h3>
-          <br>
-          <br>
-          <br>
-          <div class="social">
-          <img src="/Users/davidlutta/Documents/moringa-school-projects/Anita's-Kitchen-project/images/footerlogos/facebook.png" alt="facebook" class="ftimg"> <img src="/Users/davidlutta/Documents/moringa-school-projects/Anita's-Kitchen-project/images/footerlogos/twitter.png" alt="twitter" class="ftimg"> <img src="/Users/davidlutta/Documents/moringa-school-projects/Anita's-Kitchen-project/images/footerlogos/pinterest.png" alt="pintrest" class="ftimg">
-          </div>
-          <br>
-          <br>
-          <br>
-          <h4 class="fttxt">2016 Menu Restaurant</h4>
-
-      </div>
-
+  </div>
+  <div class="footer">
+    <div class="logo">
+      <img src="images/footerlogos/logo_white.png" alt="logo">
+    </div>
+    <div class="menu">
+      <h2 class="text-center">MENU</h2>
+      <h3 class="text-center">That's What We Are</h3>
+    </div>
+    <div class="social" style="padding-left: 730px;">
+      <img src="images/footerlogos/facebook.png" alt="facebook">
+      <img src="images/footerlogos/twitter.png" alt="twitter">
+      <img src="images/footerlogos/pinterest.png" alt="pintrest">
+    </div>
+    <p class="fttxt" style="padding-left: 700px; padding-top: 30px;">2016 Menu Restaurant</p>
+    </div>
+  </div>
 
 
 </body>
